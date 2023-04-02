@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de carros novos e usados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="content">
+        <nav class="navigation">
+            <h1>VENDA DE CARROS NOVOS E USADOS</h1>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Sobre</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <li class="nav-item"><a href="#">Menu</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first-content">
+            <div class="first-content-text">
+                <h4 class="text-h4">Seja Bem-vindo !</h4>
+                <h1 class="text-h1">Encontre sua Máquina !</h1>
+                <p>O melhor lugar para encontra o seu possante</p>
+                <a href="#" class="first-content-btn">Carros Usados</a> 
+                <a href="#" class="first-content-btn">Carros Novos</a>
+            </div>
+        </section>
+        <br />
+        <br />
+        <section class="second-content">
+            <div class="grid-wrapper">
+                <h1>Carros disponíveis</h1>
+                <div class="grid-container">
+                    <div class="car-item">
+                        <span id="image1" ></span>
+                        <h3>Carro Novo !</h3>
+                        <p>Golf GTI</p>
+                        <p>Valor: R$ 90.000,00</p>
+                        <a href="#">Ver detalhes</a>
+                    </div>
+                    <div class="car-item">
+                        <span id="image2" ></span>
+                        <h3>Carro Usado !</h3>
+                        <p>Chevette</p>
+                        <p>Valor: R$ 20.000,00</p>
+                        <a href="#">Ver detalhes</a>
+                    </div>
+                    <div class="car-item">
+                        <span id="image3" ></span>
+                        <h3>Carro Usado !</h3>
+                        <p>Cross Fox</p>
+                        <p>Valor: R$ 30.000,00</p>
+                        <a href="#">Ver detalhes</a>
+                    </div>
+                    <div class="car-item">
+                        <span id="image4" ></span>
+                        <h3>Carro Novo !</h3>
+                        <p>Carro do Roger</p>
+                        <p>Valor: R$ 500.000,00</p>
+                        <a href="#">Ver detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br/>
+        <section class="third-content">
+            <h1>Encontre o carro certo para você</h1>
+            <div class="">
+                <form id="formulario">
+                    <label for="make">Marca:</label>
+                    <select id="make" name="make">
+                        <option value="volkswagen">Volkswagen</option>
+                        <option value="ford">Ford</option>
+                        <option value="chevrolet">Chevrolet</option>
+                    </select>
+    
+                    <label for="model">Modelo:</label>
+                    <select id="model" name="model">
+                        <option value="gol">Gol</option>
+                        <option value="fiesta">Fiesta</option>
+                        <option value="onix">Onix</option>
+                    </select>
+    
+                    <label for="price">Preço:</label>
+                    <input type="range" id="price" name="price" min="0" max="100000" step="1000">
+    
+                    <button type="submit">Buscar Carro<button>
+                </form>
+            </div>
+            
+        </section>  
+    </main>
+    <footer>
+        <p>&copy; 2023 Todos os direitos reservados pra quem quiser usar</p>
+    </footer>
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
